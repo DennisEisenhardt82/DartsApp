@@ -23,6 +23,7 @@ Touch-optimierte Dart-Score-Webapp im Neon-Design. Läuft komplett im Browser, i
 
 ```
 index.html   # komplette App (HTML, CSS und JavaScript)
+fonts/       # lokale Schriftdateien (Orbitron)
 README.md    # diese Datei
 ```
 
@@ -30,7 +31,7 @@ README.md    # diese Datei
 
 - Reines HTML, CSS und JavaScript, keine Bibliotheken
 - Dartscheibe als SVG, im Code erzeugt
-- Schrift: [Orbitron](https://fonts.google.com/specimen/Orbitron) über Google Fonts (benötigt beim ersten Laden Internet)
+- Schrift: [Orbitron](https://fonts.google.com/specimen/Orbitron), lokal im Projekt im Ordner `fonts/` (funktioniert auch offline)
 - Für iPad und Safari optimiert: wenige Filter und Weichzeichner, damit nichts flackert
 
 ## Lokal entwickeln
